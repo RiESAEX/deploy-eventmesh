@@ -1,0 +1,1 @@
+docker run -p 10205:10205  -p 19090:19090 -p 10000:10000 -p 10105:10105 -v $(pwd)/conf/eventmesh.properties:/data/app/eventmesh/conf/eventmesh.properties xwbx/eventmesh:0.0.10
